@@ -1,0 +1,25 @@
+{
+  "name": "openai_services",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "uses the openai api services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "IBM_Internship_Project"
+  },
+  "author": "Aman Pandagre and Muskan Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.35.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1",
+    "openai": "^3.2.1"
+  }
+}
